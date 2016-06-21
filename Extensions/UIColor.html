@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UIColor Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/UIColor" class="dashAnchor"></a>
+    <a title="UIColor Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Alexandria Docs</a> (98% documented)</p>
+        <p class="header-right"><a href="https://github.com/ovenbits/Alexandria"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fovenbits%2Egithub%2Eio%2Fdocsets%2FAlexandria%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Alexandria Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        UIColor Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CALayer.html">CALayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CAMediaTimingFunction.html">CAMediaTimingFunction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGAffineTransform.html">CGAffineTransform</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGColorSpace.html">CGColorSpace</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGContext.html">CGContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGFloat.html">CGFloat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CollectionType.html">CollectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Comparable.html">Comparable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Float.html">Float</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/MutableCollectionType.html">MutableCollectionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSAttributedString.html">NSAttributedString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSCharacterSet.html">NSCharacterSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSDate.html">NSDate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSDate/TimeFormat.html">– TimeFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSMutableAttributedString.html">NSMutableAttributedString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSMutableCharacterSet.html">NSMutableCharacterSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSObject.html">NSObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Optional.html">Optional</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SKProduct.html">SKProduct</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton.html">UIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UICollectionView.html">UICollectionView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor/Model.html">– Model</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont.html">UIFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIGestureRecognizer.html">UIGestureRecognizer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScreen.html">UIScreen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScrollView.html">UIScrollView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UISplitViewController.html">UISplitViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITableView.html">UITableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:ZF10AlexandriaoP1rFSdSd">%(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:ZF10AlexandriaoP1rFSfSf">%(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:ZF10AlexandriaoP1rFV12CoreGraphics7CGFloatS1_">%(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:ZF10Alexandriaoi1mFTVSC17CGAffineTransformS0__S0_">*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/+(_:_:).html">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions/+=(_:_:).html">+=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:ZF10Alexandriaoi1lFTCSo6NSDateS0__Sb">&lt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:ZF10Alexandriaoi2eeFTCSo6NSDateS0__Sb">==(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Subscripts.html">Subscripts</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Subscripts.html#/s:iE10AlexandriaSS9subscriptFGVs5RangeSi_SS">subscript(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Subscripts.html#/s:iE10AlexandriaSS9subscriptFSiSS">subscript(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Subscripts.html#/s:ie10AlexandriaRxs14CollectionTypewx5IndexzSiWxS1_8Distance_zSiWxS1_19_DisabledRangeIndex_zSiWxS1_S2_18IntegerLiteralType_zSirS0_9subscriptFT4safeSi_GSqWx9Generator7Element__">subscript(safe:)</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>UIColor</h1>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE10AlexandriaCSo7UIColorcFT3hexVs6UInt325alphaV12CoreGraphics7CGFloat_S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(hex:alpha:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE10AlexandriaCSo7UIColorcFT3hexVs6UInt325alphaV12CoreGraphics7CGFloat_S0_">init(hex:alpha:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a UIColor from the given hexidecimal integer.
+- parameter hex: The hex component of the color object, specified as a value from 0x000000 to 0xFFFFFF.
+- parameter alpha: The opacity component of the color object, specified as a value from 0.0 to 1.0 (optional).
+- returns: A UIColor initialized with the given color value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">hex</span><span class="p">:</span> <span class="kt">UInt32</span><span class="p">,</span> <span class="nv">alpha</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>hex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The hex component of the color object, specified as a value from 0x000000 to 0xFFFFFF.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>alpha</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The opacity component of the color object, specified as a value from 0.0 to 1.0 (optional).</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A UIColor initialized with the given color value.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE10AlexandriaCSo7UIColorcFT3hueV12CoreGraphics7CGFloat10saturationS2_9lightnessS2_5alphaS2__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(hue:saturation:lightness:alpha:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE10AlexandriaCSo7UIColorcFT3hueV12CoreGraphics7CGFloat10saturationS2_9lightnessS2_5alphaS2__S0_">init(hue:saturation:lightness:alpha:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a UIColor from a hue-saturation-lightness (HSL) set.
+- parameter hue: The hue component of the color object, specified as a value from 0.0 to 1.0.
+- parameter saturation: The saturation component of the color object, specified as a value from 0.0 to 1.0.
+- parameter lightness: The lightness component of the color object, specified as a value from 0.0 to 1.0.
+- parameter alpha: The opacity component of the color object, specified as a value from 0.0 to 1.0 (optional).
+- returns: A UIColor initialized with the given color value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">hue</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">saturation</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">lightness</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">alpha</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>hue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The hue component of the color object, specified as a value from 0.0 to 1.0.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>saturation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The saturation component of the color object, specified as a value from 0.0 to 1.0.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lightness</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The lightness component of the color object, specified as a value from 0.0 to 1.0.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>alpha</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The opacity component of the color object, specified as a value from 0.0 to 1.0 (optional).</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A UIColor initialized with the given color value.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE10AlexandriaCSo7UIColorcFT4cyanV12CoreGraphics7CGFloat7magentaS2_6yellowS2_3keyS2_5alphaS2__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(cyan:magenta:yellow:key:alpha:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE10AlexandriaCSo7UIColorcFT4cyanV12CoreGraphics7CGFloat7magentaS2_6yellowS2_3keyS2_5alphaS2__S0_">init(cyan:magenta:yellow:key:alpha:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a UIColor from a cyan-magenta-yellow-key (CMYK) set.
+- parameter cyan: The cyan component of the color object, specified as a value from 0.0 to 1.0.
+- parameter magenta: The magenta component of the color object, specified as a value from 0.0 to 1.0.
+- parameter yellow: The yellow component of the color object, specified as a value from 0.0 to 1.0.
+- parameter key: The key (black) component of the color object, specified as a value from 0.0 to 1.0.
+- parameter alpha: The opacity component of the color object, specified as a value from 0.0 to 1.0 (optional).
+- returns: A UIColor initialized with the given color value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">cyan</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">magenta</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">yellow</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">alpha</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cyan</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The cyan component of the color object, specified as a value from 0.0 to 1.0.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>magenta</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The magenta component of the color object, specified as a value from 0.0 to 1.0.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>yellow</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The yellow component of the color object, specified as a value from 0.0 to 1.0.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The key (black) component of the color object, specified as a value from 0.0 to 1.0.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>alpha</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The opacity component of the color object, specified as a value from 0.0 to 1.0 (optional).</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A UIColor initialized with the given color value.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE10AlexandriaCSo7UIColorcFT9hexStringSS5alphaV12CoreGraphics7CGFloat_S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(hexString:alpha:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE10AlexandriaCSo7UIColorcFT9hexStringSS5alphaV12CoreGraphics7CGFloat_S0_">init(hexString:alpha:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a UIColor from a given hex color string.
+- parameter hexString: The hex color string, e.g.: <q>#9443FB</q> or <q>9443FB</q>.
+- returns: A UIColor initialized with the color specified by the hexString.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">hexString</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">alpha</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>hexString</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The hex color string, e.g.: <q>#9443FB</q> or <q>9443FB</q>.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A UIColor initialized with the color specified by the hexString.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE10AlexandriaCSo7UIColorcFT3redVs5UInt85greenS1_4blueS1__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(red:green:blue:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE10AlexandriaCSo7UIColorcFT3redVs5UInt85greenS1_4blueS1__S0_">init(red:green:blue:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a UIColor initialized with color components divided by 255.0.
+- parameter red: Integer representation of the red component in range of 0-255
+- parameter green: Integer representation of the green component in range of 0-255
+- parameter blue: Integer representation of the blue component in range of 0-255</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">red</span><span class="p">:</span> <span class="kt">UInt8</span><span class="p">,</span> <span class="nv">green</span><span class="p">:</span> <span class="kt">UInt8</span><span class="p">,</span> <span class="nv">blue</span><span class="p">:</span> <span class="kt">UInt8</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>red</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Integer representation of the red component in range of 0-255</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>green</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Integer representation of the green component in range of 0-255</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>blue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Integer representation of the blue component in range of 0-255</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFE10AlexandriaCSo7UIColor11randomColorFT_S0_"></a>
+                    <a name="//apple_ref/swift/Method/randomColor()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFE10AlexandriaCSo7UIColor11randomColorFT_S0_">randomColor()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a random UIColor with hue, saturation, and brightness ranging from 0.5 to 1.0.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">randomColor</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE10AlexandriaCSo7UIColor7lightenFT2byV12CoreGraphics7CGFloat_S0_"></a>
+                    <a name="//apple_ref/swift/Method/lighten(by:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE10AlexandriaCSo7UIColor7lightenFT2byV12CoreGraphics7CGFloat_S0_">lighten(by:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Lightens the given color by the given percentage.
+- parameter amount: The percentage by which to lighten the color. Valid values are from <code>0.0</code> to <code>1.0</code>, or for a more readable format <code>0%</code> to <code>100%</code>.
+- returns: The lightened color.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">func</span> <span class="nf">lighten</span><span class="p">(</span><span class="n">by</span> <span class="nv">amount</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>amount</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The percentage by which to lighten the color. Valid values are from <code>0.0</code> to <code>1.0</code>, or for a more readable format <code>0%</code> to <code>100%</code>.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The lightened color.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE10AlexandriaCSo7UIColor6darkenFT2byV12CoreGraphics7CGFloat_S0_"></a>
+                    <a name="//apple_ref/swift/Method/darken(by:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE10AlexandriaCSo7UIColor6darkenFT2byV12CoreGraphics7CGFloat_S0_">darken(by:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Darkens the given color by the given percentage.
+- parameter amount: The percentage by which to darken the color. Valid values are from <code>0.0</code> to <code>1.0</code>, or for a more readable format <code>0%</code> to <code>100%</code>.
+- returns: The darkened color.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">func</span> <span class="nf">darken</span><span class="p">(</span><span class="n">by</span> <span class="nv">amount</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>amount</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The percentage by which to darken the color. Valid values are from <code>0.0</code> to <code>1.0</code>, or for a more readable format <code>0%</code> to <code>100%</code>.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The darkened color.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE10AlexandriaCSo7UIColor9hexStringSS"></a>
+                    <a name="//apple_ref/swift/Property/hexString" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE10AlexandriaCSo7UIColor9hexStringSS">hexString</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the color represenation as a hexadecimal string, prefixed with &rsquo;#&rsquo;.
+- returns: The hexadecimal string representation of the color.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="k">var</span> <span class="nv">hexString</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The hexadecimal string representation of the color.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE10AlexandriaCSo7UIColor3hexVs6UInt32"></a>
+                    <a name="//apple_ref/swift/Property/hex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE10AlexandriaCSo7UIColor3hexVs6UInt32">hex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the color representation as a 32-bit integer.
+- returns: A UInt32 that represents the hexadecimal color.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="k">var</span> <span class="nv">hex</span><span class="p">:</span> <span class="kt">UInt32</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A UInt32 that represents the hexadecimal color.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE10AlexandriaCSo7UIColor4rgbaT1rV12CoreGraphics7CGFloat1gS2_1bS2_1aS2__"></a>
+                    <a name="//apple_ref/swift/Property/rgba" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE10AlexandriaCSo7UIColor4rgbaT1rV12CoreGraphics7CGFloat1gS2_1bS2_1aS2__">rgba</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the RGBA (red, green, blue, alpha) components, specified as values from 0.0 to 1.0.
+- returns: The RGBA components as a tuple (r, g, b, a).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="k">var</span> <span class="nv">rgba</span><span class="p">:</span> <span class="p">(</span><span class="nv">r</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">g</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">b</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">a</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The RGBA components as a tuple (r, g, b, a).</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE10AlexandriaCSo7UIColor3hslT1hV12CoreGraphics7CGFloat1sS2_1lS2__"></a>
+                    <a name="//apple_ref/swift/Property/hsl" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE10AlexandriaCSo7UIColor3hslT1hV12CoreGraphics7CGFloat1sS2_1lS2__">hsl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the HSL (hue, saturation, lightness) components, specified as values from 0.0 to 1.0.
+- returns: The HSL components as a tuple (h, s, l).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="k">var</span> <span class="nv">hsl</span><span class="p">:</span> <span class="p">(</span><span class="nv">h</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">s</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">l</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The HSL components as a tuple (h, s, l).</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE10AlexandriaCSo7UIColor3hsbT1hV12CoreGraphics7CGFloat1sS2_1bS2__"></a>
+                    <a name="//apple_ref/swift/Property/hsb" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE10AlexandriaCSo7UIColor3hsbT1hV12CoreGraphics7CGFloat1sS2_1bS2__">hsb</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the HSB (hue, saturation, brightness) components, specified as values from 0.0 to 1.0.
+- returns: The HSB components as a tuple (h, s, b).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="k">var</span> <span class="nv">hsb</span><span class="p">:</span> <span class="p">(</span><span class="nv">h</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">s</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">b</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The HSB components as a tuple (h, s, b).</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE10AlexandriaCSo7UIColor4cmykT1cV12CoreGraphics7CGFloat1mS2_1yS2_1kS2__"></a>
+                    <a name="//apple_ref/swift/Property/cmyk" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE10AlexandriaCSo7UIColor4cmykT1cV12CoreGraphics7CGFloat1mS2_1yS2_1kS2__">cmyk</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the CMYK (cyan, magenta, yellow, key) components, specified as values from 0.0 to 1.0.
+- returns: The CMYK components as a tuple (c, m, y, k).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="k">var</span> <span class="nv">cmyk</span><span class="p">:</span> <span class="p">(</span><span class="nv">c</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">m</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">k</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The CMYK components as a tuple (c, m, y, k).</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE10AlexandriaCSo7UIColor5alphaFV12CoreGraphics7CGFloatS0_"></a>
+                    <a name="//apple_ref/swift/Method/alpha(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE10AlexandriaCSo7UIColor5alphaFV12CoreGraphics7CGFloatS0_">alpha(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns an alpha-adjusted UIColor.
+- returns: A UIColor with an adjust alpha component (shorthand for <code>colorWithAlphaComponent</code>).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">func</span> <span class="nf">alpha</span><span class="p">(</span><span class="nv">alpha</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A UIColor with an adjust alpha component (shorthand for <code>colorWithAlphaComponent</code>).</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:ZFE10AlexandriaCSo7UIColor3hexFTVs6UInt325alphaV12CoreGraphics7CGFloat_S0_"></a>
+                    <a name="//apple_ref/swift/Method/hex(_:alpha:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:ZFE10AlexandriaCSo7UIColor3hexFTVs6UInt325alphaV12CoreGraphics7CGFloat_S0_">hex(_:alpha:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a UIColor from the given hexidecimal integer.
+- parameter hex: The color value.
+- returns: A UIColor initialized with the given hex value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">hex</span><span class="p">(</span><span class="nv">hex</span><span class="p">:</span> <span class="kt">UInt32</span><span class="p">,</span> <span class="nv">alpha</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>hex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The color value.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A UIColor initialized with the given hex value.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:OE10AlexandriaCSo7UIColor5Model"></a>
+                    <a name="//apple_ref/swift/Enum/Model" class="dashAnchor"></a>
+                    <a class="token" href="#/s:OE10AlexandriaCSo7UIColor5Model">Model</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Model is an enum for describing and converting color models.</p>
+
+<ul>
+<li><code>rgb</code>: Red, Green, Blue color representation</li>
+<li><code><a href="../Extensions/UIColor.html#/s:vE10AlexandriaCSo7UIColor3hslT1hV12CoreGraphics7CGFloat1sS2_1lS2__">hsl</a></code>: Hue, Saturation, Lightness color representation</li>
+<li><code><a href="../Extensions/UIColor.html#/s:vE10AlexandriaCSo7UIColor3hsbT1hV12CoreGraphics7CGFloat1sS2_1bS2__">hsb</a></code>: Hue, Saturation, Brightness color representation</li>
+<li><code><a href="../Extensions/UIColor.html#/s:vE10AlexandriaCSo7UIColor4cmykT1cV12CoreGraphics7CGFloat1mS2_1yS2_1kS2__">cmyk</a></code>: Cyan, Magenta, Yellow, Key (Black) color representation</li>
+<li><code><a href="../Extensions/UIColor.html#/s:vE10AlexandriaCSo7UIColor3hexVs6UInt32">hex</a></code>: UInt32 (hex) color representation</li>
+</ul>
+
+                        <a href="../Extensions/UIColor/Model.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Model</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE10AlexandriaCSo7UIColor24lighterColorByPercentageFV12CoreGraphics7CGFloatS0_"></a>
+                    <a name="//apple_ref/swift/Method/lighterColorByPercentage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE10AlexandriaCSo7UIColor24lighterColorByPercentageFV12CoreGraphics7CGFloatS0_">lighterColorByPercentage(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Lightens the given color by the given percentage.
+- parameter amount: The percentage to lighten the color by. Valid values are from 0.0 to 1.0.
+- returns: The lightened color.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">func</span> <span class="nf">lighterColorByPercentage</span><span class="p">(</span><span class="nv">amount</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>amount</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The percentage to lighten the color by. Valid values are from 0.0 to 1.0.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The lightened color.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE10AlexandriaCSo7UIColor23darkerColorByPercentageFV12CoreGraphics7CGFloatS0_"></a>
+                    <a name="//apple_ref/swift/Method/darkerColorByPercentage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE10AlexandriaCSo7UIColor23darkerColorByPercentageFV12CoreGraphics7CGFloatS0_">darkerColorByPercentage(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Darkens the given color by the given percentage.
+- parameter amount: The percentage to darken the color by. Valid values are from 0.0 to 1.0.
+- returns: The darkened color.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">func</span> <span class="nf">darkerColorByPercentage</span><span class="p">(</span><span class="nv">amount</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>amount</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The percentage to darken the color by. Valid values are from 0.0 to 1.0.</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The darkened color.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Property/RGBAComponents" class="dashAnchor"></a>
+                    <a class="token" href="#/">RGBAComponents</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE10AlexandriaCSo7UIColor12redComponentV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/redComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE10AlexandriaCSo7UIColor12redComponentV12CoreGraphics7CGFloat">redComponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the red component.
+- returns: The red component as a CGFloat.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="k">var</span> <span class="nv">redComponent</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The red component as a CGFloat.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE10AlexandriaCSo7UIColor14greenComponentV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/greenComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE10AlexandriaCSo7UIColor14greenComponentV12CoreGraphics7CGFloat">greenComponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the green component.
+- returns: The green component as a CGFloat.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="k">var</span> <span class="nv">greenComponent</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The green component as a CGFloat.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE10AlexandriaCSo7UIColor13blueComponentV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/blueComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE10AlexandriaCSo7UIColor13blueComponentV12CoreGraphics7CGFloat">blueComponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the blue component.
+- returns: The blue component as a CGFloat.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="k">var</span> <span class="nv">blueComponent</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The blue component as a CGFloat.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vE10AlexandriaCSo7UIColor14alphaComponentV12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Property/alphaComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vE10AlexandriaCSo7UIColor14alphaComponentV12CoreGraphics7CGFloat">alphaComponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the alpha component.
+- returns: The alpha component as a CGFloat.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">final</span> <span class="k">var</span> <span class="nv">alphaComponent</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The alpha component as a CGFloat.</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="https://ovenbits.com" target="_blank" rel="external">Oven Bits, LLC</a>. All rights reserved. (Last updated: 2016-06-21)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
